@@ -61,31 +61,31 @@ dashboard
 ## Screenshots
 
 ### Home Page
-![Main Page](frontend/public/media/mainpage1.png)
+![Main Page](frontend/public/media/images/mainpage1.png)
 
 ### Dashboard Overview
-![Dashboard](frontend/public/media/mainpage2.png)
+![Dashboard](frontend/public/media/images/mainpage2.png)
 
 ### Holdings & Analytics
-![Analytics](frontend/public/media/mainpage3.png)
+![Analytics](frontend/public/media/images/mainpage3.png)
 
 ### Login Page
-![Login](frontend/public/media/login1.png)
+![Login](frontend/public/media/images/login1.png)
 
 ### Signup Page
-![Signup](frontend/public/media/signup1.png)
+![Signup](frontend/public/media/images/signup1.png)
 
 ### Support & Ticketing
-![Support](frontend/public/media/support1.png)
+![Support](frontend/public/media/images/support1.png)
 
 ### Ticket Creation Popup
-![Ticket Popup](frontend/public/media/ticket1.png)
+![Ticket Popup](frontend/public/media/images/ticket1.png)
 
 ### Product Page
-![Product](frontend/public/media/product1.png)
+![Product](frontend/public/media/images/product1.png)
 
 ### Pricing Page
-![Pricing](frontend/public/media/pricing1.png)
+![Pricing](frontend/public/media/images/pricing1.png)
 
 ### About Page
-![About](frontend/public/media/about1.png)
+![About](frontend/public/media/images/about1.png)
