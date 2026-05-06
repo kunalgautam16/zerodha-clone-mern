@@ -58,13 +58,6 @@ dashboard
 
 ---
 
-## Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/kunalgautam16/zerodha-clone-mern.git
-
 ## Screenshots
 
 ### Home Page
