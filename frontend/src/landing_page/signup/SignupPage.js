@@ -17,7 +17,7 @@ function SignupPage(){
             );
 
             if(res.data.msg === "Signup success"){
-                window.location.href = "http://localhost:3001";
+                window.location.href = "https://zerodha-clone-mern-dashboard.vercel.app";
             } else {
                 setError(res.data.msg);
             }

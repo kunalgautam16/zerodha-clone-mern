@@ -12,11 +12,11 @@ const Apps = () => {
       })
       .then(res=>{
           if(res.data.status === false){
-              window.location.href = "http://localhost:3000/login";
+              window.location.href = "https://zerodha-clone-mern-frontend.vercel.app";
           }
       })
       .catch(()=>{
-          window.location.href = "http://localhost:3000/login";
+          window.location.href = "https://zerodha-clone-mern-frontend.vercel.app";
       });
   }, []);
 

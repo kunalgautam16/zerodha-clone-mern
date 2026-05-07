@@ -39,7 +39,7 @@ function Login(){
             );
 
             if(res.data.msg === "Login success"){
-                window.location.href = "http://localhost:3001";
+                window.location.href = "https://zerodha-clone-mern-dashboard.vercel.app";
             } else {
                 setError(res.data.msg);
             }
@@ -72,7 +72,7 @@ function Login(){
                 <button
 
                     onClick={() => {
-                        window.location.href = "http://localhost:3001";
+                        window.location.href = "https://zerodha-clone-mern-dashboard.vercel.app";
                     }}
 
                     style={{
