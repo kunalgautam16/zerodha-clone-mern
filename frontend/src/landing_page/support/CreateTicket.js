@@ -25,7 +25,7 @@ function CreateTicket() {
 
             const res = await axios.post(
 
-            "http://localhost:3002/createTicket",
+            "https://zerodha-clone-mern-backend.onrender.com/createTicket",
 
             {
                 category,

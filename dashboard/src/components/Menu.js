@@ -10,7 +10,7 @@ const Menu = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.get("http://localhost:3002/logout", {
+      await axios.get("https://zerodha-clone-mern-backend.onrender.com/logout", {
         withCredentials: true
       });
 
@@ -32,7 +32,7 @@ const Menu = () => {
   const activeMenuClass = "menu selected";
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings", {
+    axios.get("https://zerodha-clone-mern-backend.onrender.com/allHoldings", {
       withCredentials: true
     })
     .then(res => {

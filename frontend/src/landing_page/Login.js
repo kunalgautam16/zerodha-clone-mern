@@ -11,7 +11,7 @@ function Login(){
     useEffect(() => {
 
         axios.get(
-            "http://localhost:3002/allHoldings",
+            "https://zerodha-clone-mern-backend.onrender.com/allHoldings",
             {
                 withCredentials: true
             }
@@ -33,7 +33,7 @@ function Login(){
     const handleLogin = async () => {
         try{
             const res = await axios.post(
-                "http://localhost:3002/auth/login",
+                "https://zerodha-clone-mern-backend.onrender.com/auth/login",
                 { email, password },
                 { withCredentials: true }
             );

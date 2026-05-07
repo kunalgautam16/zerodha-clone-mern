@@ -11,7 +11,7 @@ function SignupPage(){
     const handleSignup = async () => {
         try{
             const res = await axios.post(
-                "http://localhost:3002/auth/signup",
+                "https://zerodha-clone-mern-backend.onrender.com/auth/signup",
                 { email, password, username },
                 { withCredentials: true }
             );

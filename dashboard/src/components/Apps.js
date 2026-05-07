@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard";
 const Apps = () => {
 
   useEffect(()=>{
-      axios.get("http://localhost:3002/allHoldings", {
+      axios.get("https://zerodha-clone-mern-backend.onrender.com/allHoldings", {
           withCredentials: true
       })
       .then(res=>{
