@@ -17,7 +17,10 @@ const authRoutes = require("./routes/auth");
 const Ticket = require("./schemas/TicketSchema");
 
 app.use(cors({
-  origin: true,
+  origin: [
+    "https://zerodha-clone-mern-frontend.vercel.app",
+    "https://zerodha-clone-mern-dashboard.vercel.app"
+  ],
   credentials: true
 }));
 
